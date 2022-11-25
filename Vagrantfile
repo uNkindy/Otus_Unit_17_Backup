@@ -17,7 +17,6 @@ config.vm.define "backup" do |backup|
   end
   end
 end
-
 Vagrant.configure("2") do |config| 
 
   config.vm.define "client" do |client|
